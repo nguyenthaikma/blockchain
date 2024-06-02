@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style.css">
+    <title>Hyperledger Fabric App</title>
+</head>
+
+<body>
+    <p>Hyperledger Fabric Application</p>
+
+    <!-- lấy smart contract đã được deploy từ mạng blockchain -->
+    <button id="get_smart_contract">
+        Get smart contract
+    </button>
+    <!-- khởi tạo sổ cái (ledger) trên mạng blockchain -->
+    <button id="init_ledger">
+        Init Ledger
+    </button>
+    <!-- lấy thông tin tất cả các tài sản (assets) hiện có trên mạng blockchain. -->
+    <button id="get_asset">
+        Get all asset
+    </button>
+    <!-- chuyển đổi sở hữu của một tài sản từ một chủ sở hữu hiện tại sang một chủ sở hữu mới. -->
+    <button id="transfer_asset">
+        Transfer asset
+    </button>
+    <!-- tạo mới một tài sản trên mạng blockchain. -->
+    <button id="create_asset">
+        Create a asset
+    </button>
+    <!-- đọc thông tin của một tài sản dựa trên ID. -->
+    <button id="read_asset_by_id">
+        Read asset by ID
+    </button>
+    <!-- cập nhật thông tin của một tài sản trên mạng blockchain -->
+    <button id="update_asset">
+        Update asset
+    </button>
+
+    <script type="text/javascript" src="./public/app.js"></script>
+</body>
+
+</html>
