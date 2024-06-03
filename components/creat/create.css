@@ -4,9 +4,10 @@ body{
     background-color: #F8F8FF;
 }
 .form-create{
+  
     background-color: white;
     width: 35%;
-    margin: 0 auto;
+    margin: 35px auto;
     padding: 30px 40px;
     border-radius: 20px;
     border: 1px solid #DCDCDC;
