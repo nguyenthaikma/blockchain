@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/components/creat/create.css">
+    <title>Hyperledger Fabric App</title>
+</head>
+
+<body>
+    <p>Hyperledger Fabric Application Update</p>
+
+    <div>
+        <!-- lấy smart contract đã được deploy từ mạng blockchain -->
+        <button id="get_smart_contract">
+            Get smart contract
+        </button>
+        <!-- khởi tạo sổ cái (ledger) trên mạng blockchain -->
+        <button id="init_ledger">
+            Init Ledger
+        </button>
+        <!-- lấy thông tin tất cả các tài sản (assets) hiện có trên mạng blockchain. -->
+        <button id="get_asset">
+            Get all asset
+        </button>
+        <!-- chuyển đổi sở hữu của một tài sản từ một chủ sở hữu hiện tại sang một chủ sở hữu mới. -->
+        <button id="transfer_asset">
+            Transfer asset
+        </button>
+        <!-- tạo mới một tài sản trên mạng blockchain. -->
+        <button id="create_asset">
+            Create a asset
+        </button>
+        <!-- đọc thông tin của một tài sản dựa trên ID. -->
+        <button id="read_asset_by_id">
+            Read asset by ID
+        </button>
+        <!-- cập nhật thông tin của một tài sản trên mạng blockchain -->
+        <button id="update_asset">
+            Update asset
+        </button>
+    </div>
+    <br>
+    <form class="form-create" action="">
+        <h2>Update</h2>
+        <label for="AppraisedValue">AppraisedValue:</label><br>
+        <input type="text" id="appraisedValue" name="AppraisedValue" value=""><br><br>
+        <label for="Color">Color:</label><br>
+        <input type="text" id="color" name="Color" value=""><br><br>
+        <label for="ID">ID:</label><br>
+        <input type="text" id="id" name="ID" value=""><br><br>
+        <label for="Owner">Owner:</label><br>
+        <input type="text" id="owner" name="Owner" value=""><br><br>
+        <label for="Size">Size:</label><br>
+        <input type="text" id="size" name="Size" value=""><br><br>
+        <input type="submit" value="Submit" class="btn-submit-create">
+    </form>
+
+    <script type="text/javascript" src="./public/app.js"></script>
+</body>
+
+</html>
