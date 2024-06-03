@@ -1,0 +1,35 @@
+
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+    background-color: white;
+    margin: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  /* .customers tr:nth-child(even){background-color: #f2f2f2;} */
+  
+  .customers tr:hover {background-color: #ddd;}
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #E0312E;
+    color: white;
+  }
+
+  h2{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 32px;
+    color: #E0312E;
+  }
